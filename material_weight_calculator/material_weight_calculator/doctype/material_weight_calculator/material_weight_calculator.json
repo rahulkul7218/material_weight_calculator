@@ -1,0 +1,91 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "format:{#####}",
+ "creation": "2025-10-14 14:37:24.759672",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "material",
+  "diametermm",
+  "density",
+  "weight",
+  "column_break_nhyw",
+  "lengthmm",
+  "widthmm",
+  "thicknessmm",
+  "shape"
+ ],
+ "fields": [
+  {
+   "fieldname": "column_break_nhyw",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "material",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Material",
+   "options": "Item"
+  },
+  {
+   "fieldname": "diametermm",
+   "fieldtype": "Int",
+   "in_list_view": 1,
+   "label": "Diameter"
+  },
+  {
+   "fieldname": "lengthmm",
+   "fieldtype": "Int",
+   "in_list_view": 1,
+   "label": "Length"
+  },
+  {
+   "fieldname": "widthmm",
+   "fieldtype": "Int",
+   "in_list_view": 1,
+   "label": "Width"
+  },
+  {
+   "fieldname": "thicknessmm",
+   "fieldtype": "Int",
+   "in_list_view": 1,
+   "label": "Thickness"
+  },
+  {
+   "fieldname": "density",
+   "fieldtype": "Float",
+   "in_list_view": 1,
+   "label": "Density",
+   "precision": "9"
+  },
+  {
+   "fieldname": "weight",
+   "fieldtype": "Float",
+   "in_list_view": 1,
+   "label": "Weight Approx (Kg)"
+  },
+  {
+   "fieldname": "shape",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Shape"
+  }
+ ],
+ "grid_page_length": 50,
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2025-10-16 16:20:31.334873",
+ "modified_by": "Administrator",
+ "module": "material weight calculator",
+ "name": "Material Weight Calculator",
+ "naming_rule": "Expression",
+ "owner": "Administrator",
+ "permissions": [],
+ "row_format": "Dynamic",
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

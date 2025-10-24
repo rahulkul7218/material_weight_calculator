@@ -242,3 +242,25 @@ app_license = "mit"
 # 	"Logging DocType Name": 30  # days to retain logs
 # }
 
+after_migrate = [
+   "material_weight_calculator.patches.v_0.weight_calculation_tab_on_item.execute",
+   "material_weight_calculator.patches.v_0.add_wt_calculation_table_on_bom.execute",
+   "material_weight_calculator.patches.v_0.add_design_structure_link_field_on_bom_item.execute",
+   "material_weight_calculator.patches.v_0.add_material_type_and_shape_on_bom_item.execute",
+   "material_weight_calculator.patches.v_0.add_filed_item_parameter_on_bom_item.execute"
+   
+
+    
+]
+
+
+doctype_js = {
+	"Material Weight Calculator":"public/js/hide_add_row_button_on_item_density_table.js"
+}
+
+doc_events = {
+   "Parameter Name": {
+        "after_insert": "material_weight_calculator.api.create_field_dynamically.create_custom_field",
+        
+    }
+}
