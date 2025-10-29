@@ -1,3 +1,4 @@
+
 frappe.ui.form.on('BOM Item', {
     design_structure: function(frm, cdt, cdn) {
         let row = frm.doc.items.find(r => r.name === cdn);
