@@ -257,7 +257,7 @@ after_migrate = [
 doctype_js = {
 	"Material Weight Calculator":"public/js/hide_add_row_button_on_item_density_table.js",
    "Item":"public/js/hide_add_row_button_on_item_density_table.js",
-   "BOM":["public/js/dialog box.js","public/js/fetched material type and shape fromitem on bom item table.js"]
+   "BOM":["public/js/dialog_box.js","public/js/fetched_material_type_and_shape_fromitem_on_bom_item_table.js"]
 }
 
 doc_events = {
