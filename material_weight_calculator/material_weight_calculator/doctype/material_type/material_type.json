@@ -19,7 +19,7 @@
   },
   {
    "fieldname": "density_kgmm3",
-   "fieldtype": "Int",
+   "fieldtype": "Float",
    "in_list_view": 1,
    "label": "Density (kg/mm3)"
   }
@@ -27,7 +27,7 @@
  "grid_page_length": 50,
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2025-10-14 17:00:53.187962",
+ "modified": "2025-11-13 16:06:27.049586",
  "modified_by": "Administrator",
  "module": "material weight calculator",
  "name": "Material Type",
