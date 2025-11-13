@@ -18,7 +18,7 @@ frappe.ui.form.on('BOM Item', {
                 let shape_doc = await frappe.db.get_doc('Shape', row.shape);
 
                 if (!shape_doc || !shape_doc.critical_parameter?.length) {
-                    frappe.msgprint(__('No Critical Parameters found for this Shape.'));
+                    // frappe.msgprint(__('No Critical Parameters found for this Shape.'));
                     return;
                 }
 
