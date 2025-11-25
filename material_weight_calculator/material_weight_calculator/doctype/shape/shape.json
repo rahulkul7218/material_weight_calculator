@@ -1,7 +1,6 @@
 {
  "actions": [],
  "allow_rename": 1,
- "autoname": "field:name1",
  "creation": "2025-10-14 14:35:35.940007",
  "doctype": "DocType",
  "editable_grid": 1,
@@ -28,11 +27,10 @@
  "grid_page_length": 50,
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2025-10-15 13:02:32.637312",
+ "modified": "2025-11-25 17:01:53.331273",
  "modified_by": "Administrator",
  "module": "material weight calculator",
  "name": "Shape",
- "naming_rule": "By fieldname",
  "owner": "Administrator",
  "permissions": [
   {

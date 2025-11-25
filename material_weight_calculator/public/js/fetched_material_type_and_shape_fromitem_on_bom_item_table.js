@@ -8,7 +8,7 @@ frappe.ui.form.on('BOM Item', {
             let item_doc = await frappe.db.get_doc('Item', row.item_code);
 
             if (!item_doc.density || item_doc.density.length === 0) {
-                frappe.msgprint(__('No Density data found for this Item.'));
+                // frappe.msgprint(__('No Density data found for this Item.'));
                 return;
             }
 
