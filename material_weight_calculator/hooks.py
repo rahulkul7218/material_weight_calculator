@@ -243,7 +243,7 @@ app_license = "mit"
 # }
 
 after_migrate = [
-   "material_weight_calculator.patches.v_0.weight_calculation_tab_on_item.execute",
+   
    "material_weight_calculator.patches.v_0.add_wt_calculation_table_on_bom.execute",
    "material_weight_calculator.patches.v_0.add_design_structure_link_field_on_bom_item.execute",
    "material_weight_calculator.patches.v_0.add_material_type_and_shape_on_bom_item.execute",
